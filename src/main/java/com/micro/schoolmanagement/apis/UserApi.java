@@ -52,6 +52,6 @@ public class UserApi {
 
     @GetMapping("info")
     public String about(){
-        return "school management application";
+        return "school management application test";
     }
 }
