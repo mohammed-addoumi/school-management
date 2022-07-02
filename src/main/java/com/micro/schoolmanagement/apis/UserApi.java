@@ -49,4 +49,9 @@ public class UserApi {
     public String fetchUserByUserNameAndPassword(@RequestParam String userName, @RequestParam String password){
         return userService.login(userName,password);
     }
+
+    @GetMapping("info")
+    public String about(){
+        return "school management application";
+    }
 }
