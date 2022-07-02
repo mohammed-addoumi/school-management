@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: postgres://akbootpjxcvqbn:2f3171d1d7b762bc2ec909efd3b3c3f6443515809169df0b28306346a393277e@ec2-44-205-41-76.compute-1.amazonaws.com:5432/daedn85h2cb9no
+    username: akbootpjxcvqbn
+    password: 2f3171d1d7b762bc2ec909efd3b3c3f6443515809169df0b28306346a393277e
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
